@@ -31,13 +31,13 @@
   object-fit: contain;
   filter: brightness(0) invert(1);
   transition: filter var(--transition-normal), width 0.3s;
-  width: 120px;
+  width: 100px;
   height: auto;
 }
 
 @media (min-width: 768px) {
   .logo {
-    width: 160px;
+    width: 140px;
   }
 }
 
