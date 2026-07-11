@@ -1,0 +1,174 @@
+.page {
+  padding: 4rem 0 6rem;
+  background-color: var(--color-background);
+  min-height: 80vh;
+}
+
+.container {
+  max-width: 1000px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--color-charcoal);
+}
+
+.divider {
+  width: 80px;
+  height: 3px;
+  background-color: var(--color-primary);
+  margin: 0 auto 1.5rem;
+}
+
+.subtitle {
+  color: var(--color-text-light);
+  font-size: 1.15rem;
+  max-width: 600px;
+  margin: 0 auto 1.5rem;
+}
+
+.hours {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--color-white);
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  color: var(--color-charcoal);
+  font-weight: 500;
+  box-shadow: var(--shadow-sm);
+}
+
+.cardsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 3rem;
+}
+
+.residenceCard {
+  background-color: var(--color-white);
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+  display: flex;
+  flex-direction: column;
+}
+
+.residenceCard:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  height: 250px;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.cardContent {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.residenceName {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-charcoal);
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--color-text-light);
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+}
+
+.logementsTypes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.badge {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  padding: 0.35rem 0.75rem;
+  border-radius: 2rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border: 1px solid var(--color-border);
+}
+
+.contactActions {
+  display: flex;
+  gap: 1rem;
+  margin-top: auto;
+  margin-bottom: 1rem;
+}
+
+.actionBtn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem;
+  font-weight: 600;
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+.whatsappBtn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem;
+  font-weight: 600;
+  background-color: #25D366;
+  color: white;
+  border: none;
+  text-decoration: none;
+  border-radius: var(--border-radius-md);
+  transition: background-color var(--transition-fast);
+}
+
+.whatsappBtn:hover {
+  background-color: #1EBE5D;
+  color: white;
+}
+
+.contactInfo {
+  text-align: center;
+  color: var(--color-text-light);
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .cardsGrid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .contactActions {
+    flex-direction: column;
+  }
+}

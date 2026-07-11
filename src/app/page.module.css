@@ -1,0 +1,158 @@
+.page {
+  width: 100%;
+}
+
+.hero {
+  position: relative;
+  height: 90vh;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: -80px; /* Offset the header padding */
+}
+
+.heroImage {
+  object-fit: cover;
+  z-index: -2;
+}
+
+.heroOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.4) 100%);
+  z-index: -1;
+}
+
+.heroContent {
+  color: var(--color-white);
+  max-width: 800px;
+  z-index: 1;
+}
+
+.heroTitle {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: var(--color-white);
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.heroSubtitle {
+  font-size: 1.25rem;
+  margin-bottom: 2.5rem;
+  line-height: 1.6;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+
+@media (max-width: 768px) {
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+  .heroSubtitle {
+    font-size: 1.1rem;
+  }
+}
+
+.heroButtons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.divider {
+  width: 80px;
+  height: 3px;
+  background-color: var(--color-primary);
+  margin: 0 auto 1rem;
+}
+
+.sectionSubtitle {
+  color: var(--color-text-light);
+  font-size: 1.1rem;
+}
+
+.advantagesSection {
+  background-color: var(--color-white);
+}
+
+.advantagesGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .advantagesGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.advantageCard {
+  text-align: center;
+  padding: 2rem;
+  border-radius: var(--border-radius-md);
+  transition: all var(--transition-fast);
+  background-color: var(--color-light-gray);
+}
+
+.advantageCard:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-sm);
+  background-color: var(--color-white);
+}
+
+.advantageIcon {
+  color: var(--color-primary);
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.advantageTitle {
+  font-size: 1.1rem;
+  font-family: var(--font-text);
+  font-weight: 500;
+}
+
+.featuredSection {
+  background-color: var(--color-light-gray);
+}
+
+.propertiesGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+  .propertiesGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .propertiesGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.viewAllBtn {
+  text-align: center;
+}
