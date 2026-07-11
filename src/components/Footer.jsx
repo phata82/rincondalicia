@@ -37,7 +37,6 @@ export default function Footer() {
             <li><Link href="/residences">Nos Résidences</Link></li>
             <li><Link href="/logements">Nos Logements</Link></li>
             <li><Link href="/services">Services</Link></li>
-            <li><Link href="/galerie">Galerie</Link></li>
             <li><Link href="/a-propos">À propos</Link></li>
           </ul>
         </div>
@@ -54,7 +53,10 @@ export default function Footer() {
             </li>
             <li>
               <Phone size={18} className={styles.contactIcon} />
-              <span>+221 XX XXX XX XX</span>
+              <span>
+                <strong>Liberté 6:</strong> +221 78 407 82 82<br/>
+                <strong>Almadies 2:</strong> +221 78 455 05 55
+              </span>
             </li>
             <li>
               <Mail size={18} className={styles.contactIcon} />

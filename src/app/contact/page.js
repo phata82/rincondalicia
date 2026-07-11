@@ -36,7 +36,8 @@ export default function Contact() {
             </div>
             <div>
               <h3>Téléphone & WhatsApp</h3>
-              <p>+221 77 XXX XX XX</p>
+              <p><strong>Liberté 6:</strong> +221 78 407 82 82</p>
+              <p><strong>Almadies 2:</strong> +221 78 455 05 55</p>
             </div>
           </div>
 

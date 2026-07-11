@@ -46,14 +46,14 @@ export default function ReserverPage() {
               </div>
               
               <div className={styles.contactActions}>
-                <a href="tel:+221770000000" className={`btn btn-primary ${styles.actionBtn}`}>
+                <a href="tel:+221784078282" className={`btn btn-primary ${styles.actionBtn}`}>
                   <Phone size={20} /> Appeler
                 </a>
-                <a href="https://wa.me/221770000000" target="_blank" rel="noopener noreferrer" className={`btn ${styles.whatsappBtn}`}>
+                <a href="https://wa.me/221784078282" target="_blank" rel="noopener noreferrer" className={`btn ${styles.whatsappBtn}`}>
                   <MessageCircle size={20} /> WhatsApp
                 </a>
               </div>
-              <p className={styles.contactInfo}>+221 77 000 00 00</p>
+              <p className={styles.contactInfo}>+221 78 407 82 82</p>
             </div>
           </div>
 
@@ -80,14 +80,14 @@ export default function ReserverPage() {
               </div>
               
               <div className={styles.contactActions}>
-                <a href="tel:+221770000000" className={`btn btn-primary ${styles.actionBtn}`}>
+                <a href="tel:+221784550555" className={`btn btn-primary ${styles.actionBtn}`}>
                   <Phone size={20} /> Appeler
                 </a>
-                <a href="https://wa.me/221770000000" target="_blank" rel="noopener noreferrer" className={`btn ${styles.whatsappBtn}`}>
+                <a href="https://wa.me/221784550555" target="_blank" rel="noopener noreferrer" className={`btn ${styles.whatsappBtn}`}>
                   <MessageCircle size={20} /> WhatsApp
                 </a>
               </div>
-              <p className={styles.contactInfo}>+221 77 000 00 00</p>
+              <p className={styles.contactInfo}>+221 78 455 05 55</p>
             </div>
           </div>
         </div>
