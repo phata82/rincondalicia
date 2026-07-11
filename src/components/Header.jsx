@@ -28,7 +28,7 @@ export default function Header() {
   const pathname = usePathname();
 
   const isHomePage = pathname === "/";
-  const shouldApplyScrolledStyle = isScrolled || !isHomePage;
+  const shouldApplyScrolledStyle = isScrolled || !isHomePage || isMobileMenuOpen;
 
   useEffect(() => {
     const handleScroll = () => {

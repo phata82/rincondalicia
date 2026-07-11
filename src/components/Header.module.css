@@ -24,17 +24,27 @@
 .logoContainer {
   display: flex;
   align-items: center;
+  z-index: 1002; /* Ensure logo stays above mobile menu if needed */
 }
 
 .logo {
   object-fit: contain;
   filter: brightness(0) invert(1);
-  transition: filter var(--transition-normal);
+  transition: filter var(--transition-normal), width 0.3s;
+  width: 180px;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    width: 240px;
+  }
 }
 
 .scrolled .logo {
   filter: none;
 }
+
 
 .desktopNav {
   display: none;
