@@ -24,7 +24,7 @@ const featuredProperties = [
     residence: "Résidence Rincón d'Alicia 2 (Almadies 2)",
     price: 60000,
     type: "Appartement",
-    capacity: "6 personnes",
+    capacity: "4 personnes",
     image: "/images/residence-2/Appartement%20F3/WhatsApp%20Image%202026-07-10%20at%2018.36.48%20(5).jpeg",
     wifi: true,
     tv: true,
