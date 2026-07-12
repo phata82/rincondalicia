@@ -24,7 +24,7 @@ export default function About() {
           <div className={styles.imageSection}>
             <div className={styles.imageWrapper}>
               <Image 
-                src="/images/residence-2/Appartement%20F3/WhatsApp%20Image%202026-07-10%20at%2018.36.48%20(5).jpeg"
+                src="/images/residence-2/studio%203/WhatsApp%20Image%202026-07-10%20at%2018.17.47%20(1).jpeg"
                 alt="Intérieur Résidence Rincón d'Alicia"
                 fill
                 className={styles.image}
