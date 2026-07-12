@@ -64,7 +64,7 @@ export default function Home() {
       <section className={styles.hero}>
         <div className={styles.heroOverlay}></div>
         <Image
-          src="/images/residence-2/Appartement%20F3/WhatsApp%20Image%202026-07-10%20at%2018.36.49%20(3).jpeg"
+          src="/images/residence-2/Appartement%20F3/WhatsApp%20Image%202026-07-10%20at%2018.36.48%20(1).jpeg"
           alt="Appartement F3"
           fill
           priority
