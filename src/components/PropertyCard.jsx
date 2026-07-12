@@ -50,7 +50,7 @@ export default function PropertyCard({ property }) {
         </div>
         
         <div className={styles.actions}>
-          <Link href={`/logements/${property.id}`} className="btn btn-outline">
+          <Link href={`/logements#${property.id}`} className="btn btn-outline">
             Voir les détails
           </Link>
           <Link href={`/reserver?logement=${property.id}`} className="btn btn-primary">

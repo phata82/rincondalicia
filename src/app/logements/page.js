@@ -65,7 +65,7 @@ export default function Logements() {
 
       <div className={styles.grid}>
         {filteredLogements.map(logement => (
-          <div key={logement.id} className={styles.logementCard}>
+          <div key={logement.id} id={logement.id} className={styles.logementCard}>
             <div 
               className={styles.imageContainer} 
               onClick={() => openLightbox(logement.images, 0)}
