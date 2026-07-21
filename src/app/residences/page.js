@@ -5,6 +5,20 @@ import { MapPin } from "lucide-react";
 
 const residences = [
   {
+    id: "residence-2",
+    name: "Résidence Rincón d'Alicia 2",
+    location: "Almadies 2 (ZAC de Kounoune)",
+    description: "Résidence moderne proposant des chambres, studios et un appartement F3.",
+    image: "/images/residence-2/residence2.jpeg",
+    tarifs: [
+      { logement: "Chambre 1 (avec kitchenette)", prix: "25 000 FCFA" },
+      { logement: "Chambre 2", prix: "20 000 FCFA" },
+      { logement: "Studio 2", prix: "30 000 FCFA" },
+      { logement: "Studio 3", prix: "30 000 FCFA" },
+      { logement: "Appartement F3", prix: "60 000 FCFA" },
+    ]
+  },
+  {
     id: "residence-1",
     name: "Résidence Rincón d'Alicia 1",
     location: "Liberté 6, Dakar",
@@ -18,20 +32,6 @@ const residences = [
       { logement: "Studio 1", prix: "22 500 FCFA" },
       { logement: "Studio 2", prix: "22 500 FCFA" },
       { logement: "Studio 3", prix: "22 500 FCFA" },
-    ]
-  },
-  {
-    id: "residence-2",
-    name: "Résidence Rincón d'Alicia 2",
-    location: "Almadies 2 (ZAC de Kounoune)",
-    description: "Résidence moderne proposant des chambres, studios et un appartement F3.",
-    image: "/images/residence-2/Appartement%20F3/WhatsApp%20Image%202026-07-10%20at%2018.36.48%20(1).jpeg",
-    tarifs: [
-      { logement: "Chambre 1 (avec kitchenette)", prix: "25 000 FCFA" },
-      { logement: "Chambre 2", prix: "20 000 FCFA" },
-      { logement: "Studio 2", prix: "30 000 FCFA" },
-      { logement: "Studio 3", prix: "30 000 FCFA" },
-      { logement: "Appartement F3", prix: "60 000 FCFA" },
     ]
   }
 ];

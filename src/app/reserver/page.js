@@ -24,6 +24,40 @@ export default function ReserverPage() {
         </div>
 
         <div className={styles.cardsGrid}>
+          {/* Résidence 2 */}
+          <div className={styles.residenceCard}>
+            <div className={styles.imageWrapper}>
+              <Image 
+                src="/images/residence-2/residence2.jpeg"
+                alt="Résidence Rincón d'Alicia 2"
+                fill
+                className={styles.image}
+              />
+            </div>
+            <div className={styles.cardContent}>
+              <h2 className={styles.residenceName}>Résidence Rincón d'Alicia 2</h2>
+              <p className={styles.location}>
+                <MapPin size={18} /> Almadies 2 (ZAC de Kounoune), Dakar
+              </p>
+              
+              <div className={styles.logementsTypes}>
+                <span className={styles.badge}>Chambres</span>
+                <span className={styles.badge}>Studios</span>
+                <span className={styles.badge}>Appartement F3</span>
+              </div>
+              
+              <div className={styles.contactActions}>
+                <a href="tel:+221784550555" className={`btn btn-primary ${styles.actionBtn}`}>
+                  <Phone size={20} /> Appeler
+                </a>
+                <a href="https://wa.me/221784550555" target="_blank" rel="noopener noreferrer" className={`btn ${styles.whatsappBtn}`}>
+                  <MessageCircle size={20} /> WhatsApp
+                </a>
+              </div>
+              <p className={styles.contactInfo}>+221 78 455 05 55</p>
+            </div>
+          </div>
+
           {/* Résidence 1 */}
           <div className={styles.residenceCard}>
             <div className={styles.imageWrapper}>
@@ -54,40 +88,6 @@ export default function ReserverPage() {
                 </a>
               </div>
               <p className={styles.contactInfo}>+221 78 407 82 82</p>
-            </div>
-          </div>
-
-          {/* Résidence 2 */}
-          <div className={styles.residenceCard}>
-            <div className={styles.imageWrapper}>
-              <Image 
-                src="/images/residence-2/Appartement%20F3/WhatsApp%20Image%202026-07-10%20at%2018.36.48%20(1).jpeg"
-                alt="Résidence Rincón d'Alicia 2"
-                fill
-                className={styles.image}
-              />
-            </div>
-            <div className={styles.cardContent}>
-              <h2 className={styles.residenceName}>Résidence Rincón d'Alicia 2</h2>
-              <p className={styles.location}>
-                <MapPin size={18} /> Almadies 2 (ZAC de Kounoune), Dakar
-              </p>
-              
-              <div className={styles.logementsTypes}>
-                <span className={styles.badge}>Chambres</span>
-                <span className={styles.badge}>Studios</span>
-                <span className={styles.badge}>Appartement F3</span>
-              </div>
-              
-              <div className={styles.contactActions}>
-                <a href="tel:+221784550555" className={`btn btn-primary ${styles.actionBtn}`}>
-                  <Phone size={20} /> Appeler
-                </a>
-                <a href="https://wa.me/221784550555" target="_blank" rel="noopener noreferrer" className={`btn ${styles.whatsappBtn}`}>
-                  <MessageCircle size={20} /> WhatsApp
-                </a>
-              </div>
-              <p className={styles.contactInfo}>+221 78 455 05 55</p>
             </div>
           </div>
         </div>
