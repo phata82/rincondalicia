@@ -71,7 +71,7 @@ export default function Home() {
           className={styles.heroImage}
         />
         <div className={`container ${styles.heroContent} animate-fade-in`}>
-          <h1 className={styles.heroTitle}>Bienvenue à Résidence Rincón d'Alicia</h1>
+          <h1 className={styles.heroTitle}>Bienvenue aux Résidences Rincón d'Alicia</h1>
           <p className={styles.heroSubtitle}>
             Des appartements, studios et chambres meublés alliant confort, élégance et tranquillité pour vos courts et longs séjours.
           </p>
