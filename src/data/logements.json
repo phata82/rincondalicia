@@ -237,6 +237,19 @@
     "price": "60 000 FCFA",
     "description": "Grand appartement familial avec salon, chambres, cuisine et salle de bain.",
     "images": [
+      "/images/residence-2/Appartement%20F3/A1.jpg",
+      "/images/residence-2/Appartement%20F3/A2.jpg",
+      "/images/residence-2/Appartement%20F3/A3.jpg",
+      "/images/residence-2/Appartement%20F3/A4.jpg",
+      "/images/residence-2/Appartement%20F3/5.jpg",
+      "/images/residence-2/Appartement%20F3/A6.jpg",
+      "/images/residence-2/Appartement%20F3/A7.jpg",
+      "/images/residence-2/Appartement%20F3/A8.jpg",
+      "/images/residence-2/Appartement%20F3/A9.jpg",
+      "/images/residence-2/Appartement%20F3/A10.jpg",
+      "/images/residence-2/Appartement%20F3/A11.jpg",
+      "/images/residence-2/Appartement%20F3/A12.jpg",
+      "/images/residence-2/Appartement%20F3/A13.jpg",
       "/images/residence-2/Appartement%20F3/WhatsApp%20Image%202026-07-10%20at%2018.36.48%20(1).jpeg",
       "/images/residence-2/Appartement%20F3/WhatsApp%20Image%202026-07-10%20at%2018.36.48%20(2).jpeg",
       "/images/residence-2/Appartement%20F3/WhatsApp%20Image%202026-07-10%20at%2018.36.48%20(3).jpeg",
@@ -288,6 +301,6 @@
       "/images/residence-2/Appartement%20F3/WhatsApp%20Image%202026-07-10%20at%2018.36.53%20(7).jpeg",
       "/images/residence-2/Appartement%20F3/WhatsApp%20Image%202026-07-10%20at%2018.36.53.jpeg"
     ],
-    "mainImage": "/images/residence-2/Appartement%20F3/WhatsApp%20Image%202026-07-10%20at%2018.36.48%20(1).jpeg"
+    "mainImage": "/images/residence-2/Appartement%20F3/A1.jpg"
   }
 ]
